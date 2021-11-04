@@ -1,0 +1,80 @@
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "keys": "ctrl+c"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": "find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "keys": "alt+shift+d"
+        }
+    ],
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "acrylicOpacity": 0.9,
+            "bellStyle": "none",
+            "colorScheme": "Frost",
+            "cursorColor": "#808080",
+            "useAcrylic": true
+        },
+        "list": 
+        [
+            {
+                "guid": "{some-guid}",
+                "hidden": false,
+                "name": "CLI-Name",
+                "source": "Cli.Source"
+            }
+        ]
+    },
+    "schemes": 
+    [
+        {
+            "background": "#E6E6E6",
+            "black": "#3C5712",
+            "blue": "#17B2FF",
+            "brightBlack": "#749B36",
+            "brightBlue": "#27B2F6",
+            "brightCyan": "#13A8C0",
+            "brightGreen": "#89AF50",
+            "brightPurple": "#C08009",
+            "brightRed": "#CC822E",
+            "brightWhite": "#741274",
+            "brightYellow": "#D18C0C",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3C96A6",
+            "foreground": "#000000",
+            "green": "#228B22",
+            "name": "Frost",
+            "purple": "#991070",
+            "red": "#FF002B",
+            "selectionBackground": "#FFFFFF",
+            "white": "#C8C8FF",
+            "yellow": "#991070"
+        }
+    ]
+}
