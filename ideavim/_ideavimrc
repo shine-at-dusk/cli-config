@@ -1,0 +1,10 @@
+" PyCharm ideavim configuration file
+
+set ic
+set hlsearch
+set incsearch
+set scrolloff=5
+
+" Mapping to clear current search highlight
+nnoremap <silent> <C-L> :nohlsearch<CR><C-L>
+
